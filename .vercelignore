@@ -1,20 +1,17 @@
-# Scraped content
+# Heavy runtime-excluded files
+playwright/
+auth.json
 downloaded_threads/
 markdown_files/
-
-# Local DB
 knowledge_base.db
 
-# Playwright auth
-auth.json
+# Not needed in production
+scrape_course.py
+scrape_discourse.py
+preprocess.py
 
-# Envs & cache
+# Environment & build garbage
 venv/
 __pycache__/
 *.pyc
 *.sqlite
-
-# Not needed for production
-scrape_course.py
-scrape_discourse.py
-preprocess.py
