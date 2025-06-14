@@ -11,5 +11,10 @@
       "src": "/(.*)",
       "dest": "app.py"
     }
-  ]
+  ],
+  "functions": {
+    "api/**": {
+      "excludeFiles": "{downloaded_threads,markdown_files,tests,.cache}/**"
+    }
+  }
 }

@@ -1,11 +1,4 @@
-# Prevent large files from being uploaded
-playwright/
-auth.json
 downloaded_threads/
 markdown_files/
-chromadb/
-knowledge_base.db
-__pycache__/
-*.pyc
-venv/
-*.sqlite
+tests/
+.cache/
