@@ -1,11 +1,20 @@
-# Prevent large files from being uploaded
-playwright/
-auth.json
+# Scraped content
 downloaded_threads/
 markdown_files/
-chromadb/
+
+# Local DB
 knowledge_base.db
+
+# Playwright auth
+auth.json
+
+# Envs & cache
+venv/
 __pycache__/
 *.pyc
-venv/
 *.sqlite
+
+# Not needed for production
+scrape_course.py
+scrape_discourse.py
+preprocess.py
