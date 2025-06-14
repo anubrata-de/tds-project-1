@@ -1,17 +1,11 @@
-# Heavy runtime-excluded files
+# Prevent large files from being uploaded
 playwright/
 auth.json
 downloaded_threads/
 markdown_files/
+chromadb/
 knowledge_base.db
-
-# Not needed in production
-scrape_course.py
-scrape_discourse.py
-preprocess.py
-
-# Environment & build garbage
-venv/
 __pycache__/
 *.pyc
+venv/
 *.sqlite

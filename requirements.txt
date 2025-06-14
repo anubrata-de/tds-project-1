@@ -12,4 +12,5 @@ markdownify
 openai
 python-multipart
 setuptools
+chromadb
 mangum
