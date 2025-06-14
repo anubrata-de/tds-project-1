@@ -2,3 +2,7 @@ downloaded_threads/
 markdown_files/
 tests/
 .cache/
+knowledge_base.db
+preprocess.py
+scrape_course.py
+scrape_discourse.py
