@@ -723,6 +723,9 @@ async def health_check():
             status_code=500,
             content={"status": "unhealthy", "error": str(e), "api_key_set": bool(API_KEY)}
         )
+import sqlite3
+DB_PATH = os.path.join(os.path.dirname(__file__), "knowledge_base.db")
+conn = sqlite3.connect(f"file:{DB_PATH}?mode=ro", uri=True)
 
 if __name__ == "__main__":
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True) 
+    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
